@@ -11,3 +11,21 @@
 li a{
     text-decoration: none;
 }
+menu li:hover{
+    background-color: violet;
+}
+li:hover>a{
+    color: yellow;
+    font-weight: bold;
+}
+.menu li .sub-menu{
+    display: none;
+    position: absolute;
+}
+.menu li:hover>.sub-menu{
+    display: block;
+}
+.menu li .sub-menu li:hover>.sub-menu{
+    top: opx;
+    left: 150px;
+}
